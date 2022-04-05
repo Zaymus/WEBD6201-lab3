@@ -401,7 +401,6 @@
 		let messageArea = $("#messageArea");
 		messageArea.hide();
 		let taskInput = $("#taskTextInput");
-		console.log(taskInput);
 		if (taskInput.val() != "" && taskInput.val().charAt(0) != " ") {
 			let newElement = `
               <li class="list-group-item" id="task">
